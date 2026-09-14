@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO META -->
+    <title>[Company Name] | Professional App & Web Development South Africa</title>
+    <meta name="description" content="[Company Name] is a South African developer specialising in mobile apps, custom software, web development, and UI/UX design. Get a free consultation for your next project.">
+    <meta name="keywords" content="app developer South Africa, web developer South Africa, mobile app development, custom software, web development, UI/UX design, desktop applications, web hosting">
+    <meta name="author" content="[Company Name]">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://[yourdomain].co.za/">
+    
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:site_name" content="[Company Name]">
+    <meta property="og:title" content="[Company Name] | Professional App & Web Development South Africa">
+    <meta property="og:description" content="South African developer specialising in mobile apps, custom software, web development, and UI/UX design.">
+    <meta property="og:url" content="https://[yourdomain].co.za/">
+    <meta property="og:image" content="https://[yourdomain].co.za/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="[Company Name] - South African Development Studio">
+    
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="[Company Name] | Professional App & Web Development South Africa">
+    <meta name="twitter:description" content="South African developer specialising in mobile apps, custom software, web development, and UI/UX design.">
+    <meta name="twitter:image" content="https://[yourdomain].co.za/assets/og-image.jpg">
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <meta name="theme-color" content="#0a0f12">
+    
+    <!-- PERFORMANCE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- DEVICONS CDN FOR TECH STACK -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    
+    <!-- STRUCTURED DATA: LOCAL BUSINESS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "[Company Name]",
+        "description": "South African developer specialising in mobile apps, custom software, web development, and UI/UX design.",
+        "url": "https://[yourdomain].co.za/",
+        "logo": "https://[yourdomain].co.za/assets/logo.png",
+        "image": "https://[yourdomain].co.za/assets/og-image.jpg",
+        "telephone": "+27-82-718-3651",
+        "email": "hello@[yourdomain].co.za",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "South Africa",
+            "addressCountry": "ZA"
+        },
+        "areaServed": { "@type": "Country", "name": "South Africa" },
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+            "opens": "08:00",
+            "closes": "17:00"
+        },
+        "founder": { "@type": "Person", "name": "Jacy Reyneke", "jobTitle": "Lead Developer" }
+    }
+    </script>
+    
+    <!-- STRUCTURED DATA: BREADCRUMB -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://[yourdomain].co.za/" },
+            { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://[yourdomain].co.za/#services" },
+            { "@type": "ListItem", "position": 3, "name": "About", "item": "https://[yourdomain].co.za/#about" },
+            { "@type": "ListItem", "position": 4, "name": "Contact", "item": "https://[yourdomain].co.za/#contact" }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- THREE.JS CANVAS (3D BACKGROUND) -->
+    <canvas id="three-canvas" aria-hidden="true"></canvas>
+    
+    <!-- SKIP LINK -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- NAVIGATION -->
+    <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <div class="container nav__inner">
+            <a href="/" class="nav__logo" aria-label="[Company Name] — Home">[Company Name]</a>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav__links" id="navLinks" role="menubar">
+                <li role="none"><a href="#services" role="menuitem">Services</a></li>
+                <li role="none"><a href="#about" role="menuitem">About</a></li>
+                <li role="none"><a href="#why-us" role="menuitem">Why Us</a></li>
+                <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- HERO -->
+        <section class="hero" id="hero" aria-labelledby="hero-title">
+            <div class="container">
+
+                <h1 class="hero__title" id="hero-title">
+                    We Build <span class="text-gradient">Digital Products</span> That Work
+                </h1>
+                <p class="hero__subtitle">From mobile apps to custom software, web hosting to online stores — quality development at fair prices for businesses that want results.</p>
+                <div class="hero__cta">
+                    <a href="#contact" class="btn btn--primary">Start a Project</a>
+                    <a href="#services" class="btn btn--secondary">Our Services</a>
+                </div>
+            </div>
+            <div class="hero__scroll" aria-hidden="true">
+                <span>Scroll</span>
+                <div class="hero__scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <p class="section__tag">WHAT WE DO</p>
+                <h2 class="section__title" id="services-title">Services Built for <span class="text-gradient">Growth</span></h2>
+                <div class="services__grid">
+                    <article class="card" data-reveal>
+                        <div class="card__icon card__icon--teal" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="14" y="4" width="20" height="40" rx="3"/>
+                                <line x1="20" y1="40" x2="28" y2="40"/>
+                                <line x1="24" y1="8" x2="24" y2="8"/>
+                                <polyline points="18,14 22,18 18,22"/>
+                                <line x1="24" y1="18" x2="30" y2="18"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Mobile App Development</h3>
+                        <p class="card__text">Android and iOS apps that work well, load fast, and give users a smooth experience.</p>
+                    </article>
+                    <article class="card" data-reveal>
+                        <div class="card__icon card__icon--gold" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="4" y="4" width="40" height="40" rx="3"/>
+                                <line x1="4" y1="12" x2="44" y2="12"/>
+                                <circle cx="9" cy="8" r="1.5"/>
+                                <circle cx="14" cy="8" r="1.5"/>
+                                <circle cx="19" cy="8" r="1.5"/>
+                                <polyline points="14,22 18,26 14,30"/>
+                                <line x1="20" y1="26" x2="26" y2="26"/>
+                                <line x1="14" y1="34" x2="26" y2="34"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Web Development</h3>
+                        <p class="card__text">Websites and web apps that look good on any device and help you reach more customers.</p>
+                    </article>
+                    <article class="card" data-reveal>
+                        <div class="card__icon card__icon--teal" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="24" cy="24" r="6"/>
+                                <circle cx="24" cy="24" r="12" stroke-dasharray="4 4"/>
+                                <line x1="24" y1="4" x2="24" y2="12"/>
+                                <line x1="24" y1="36" x2="24" y2="44"/>
+                                <line x1="4" y1="24" x2="12" y2="24"/>
+                                <line x1="36" y1="24" x2="44" y2="24"/>
+                                <line x1="10" y1="10" x2="16" y2="16"/>
+                                <line x1="38" y1="10" x2="32" y2="16"/>
+                                <line x1="10" y1="38" x2="16" y2="32"/>
+                                <line x1="38" y1="38" x2="32" y2="32"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Custom Software</h3>
+                        <p class="card__text">Software built specifically for how your business works — no unnecessary features, just what you need.</p>
+                    </article>
+                    <article class="card" data-reveal>
+                        <div class="card__icon card__icon--gold" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="6" y="4" width="36" height="28" rx="2"/>
+                                <line x1="14" y1="32" x2="14" y2="40"/>
+                                <line x1="34" y1="32" x2="34" y2="40"/>
+                                <line x1="10" y1="40" x2="38" y2="40"/>
+                                <polyline points="18,14 22,18 18,22"/>
+                                <line x1="24" y1="18" x2="30" y2="18"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Desktop Applications</h3>
+                        <p class="card__text">Desktop programs that run on Windows, Mac, or Linux — work offline, stay productive.</p>
+                    </article>
+                    <article class="card" data-reveal>
+                        <div class="card__icon card__icon--teal" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="8" y="28" width="32" height="10" rx="2"/>
+                                <rect x="8" y="14" width="32" height="10" rx="2"/>
+                                <rect x="8" y="4" width="32" height="6" rx="2"/>
+                                <line x1="14" y1="8" x2="34" y2="8"/>
+                                <line x1="14" y1="18" x2="34" y2="18"/>
+                                <line x1="14" y1="32" x2="34" y2="32"/>
+                                <circle cx="12" cy="21" r="1"/>
+                                <circle cx="12" cy="35" r="1"/>
+                                <path d="M36,44 L40,38 L36,38 L38,32"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Web Hosting</h3>
+                        <p class="card__text">Fast, reliable hosting for your website — set up, secured, and kept running.</p>
+                    </article>
+                    <article class="card" data-reveal>
+                        <div class="card__icon card__icon--gold" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M8,40 L24,6 L40,40 Z"/>
+                                <line x1="14" y1="28" x2="34" y2="28"/>
+                                <circle cx="24" cy="22" r="4"/>
+                                <line x1="24" y1="14" x2="24" y2="18"/>
+                                <line x1="20" y1="40" x2="28" y2="40"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">UI/UX Design</h3>
+                        <p class="card__text">Clean, easy-to-use designs that help people enjoy using your product.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT — REDESIGNED -->
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <p class="section__tag">ABOUT</p>
+                <h2 class="section__title" id="about-title"><span class="text-gradient" id="about-title-dynamic">Me</span></h2>
+                <div class="about__content">
+                    <div class="about__text" data-reveal>
+                        <p>I'm <strong>Jacy Reyneke</strong> — a developer based in South Africa. I build apps, websites, and software that actually work. Whether you're an individual with an idea, a small business needing an online presence, or a company needing custom tools — I give every project the same attention and care.</p>
+                        <p>No big agencies. No middlemen. You talk directly to me, from first sketch to final launch.</p>
+                        <div class="about__highlight">
+                            <p><strong>My approach?</strong> Keep it simple, keep it clean. I build things that work well and are easy to maintain — not flashy demos that fall apart later.</p>
+                        </div>
+                    </div>
+                    <div class="about__tech" data-reveal>
+                        <h3 class="about__tech-title">Tech Stack</h3>
+                        <div class="tech__grid">
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="32" height="32"></div><span class="tech__card-name">Kotlin</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="32" height="32"></div><span class="tech__card-name">React</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="32" height="32"></div><span class="tech__card-name">TypeScript</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" width="32" height="32"></div><span class="tech__card-name">Node.js</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="32" height="32"></div><span class="tech__card-name">Python</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" alt="Supabase" width="32" height="32"></div><span class="tech__card-name">Supabase</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="32" height="32"></div><span class="tech__card-name">PostgreSQL</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" alt="Firebase" width="32" height="32"></div><span class="tech__card-name">Firebase</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="32" height="32"></div><span class="tech__card-name">Tailwind</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="32" height="32"></div><span class="tech__card-name">Docker</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="32" height="32"></div><span class="tech__card-name">AWS</span></div>
+                            <div class="tech__card"><div class="tech__card-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="32" height="32"></div><span class="tech__card-name">Git</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section class="why-us" id="why-us" aria-labelledby="why-title">
+            <div class="container">
+                <p class="section__tag">WHY CHOOSE US</p>
+                <h2 class="section__title" id="why-title">Why Work With <span class="text-gradient">Me</span></h2>
+                <div class="why__grid">
+                    <div class="why__item" data-reveal>
+                        <div class="why__number">01</div>
+                        <h3 class="why__title">Direct Communication</h3>
+                        <p class="why__text">No account managers. No project coordinators. You talk directly to me — the person building your project.</p>
+                    </div>
+                    <div class="why__item" data-reveal>
+                        <div class="why__number">02</div>
+                        <h3 class="why__title">Full Project Handling</h3>
+                        <p class="why__text">From idea and design to building, launching, and ongoing support — I handle it all.</p>
+                    </div>
+                    <div class="why__item" data-reveal>
+                        <div class="why__number">03</div>
+                        <h3 class="why__title">Clean Code</h3>
+                        <p class="why__text">Well-written, easy-to-maintain code. Built with good practices and proper testing.</p>
+                    </div>
+                    <div class="why__item" data-reveal>
+                        <div class="why__number">04</div>
+                        <h3 class="why__title">South African Based</h3>
+                        <p class="why__text">Local understanding with solid quality. Same time zone, same business culture, no communication barriers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <p class="section__tag">GET IN TOUCH</p>
+                <h2 class="section__title" id="contact-title">Let's Build Something <span class="text-gradient">Great</span></h2>
+                <div class="contact__grid">
+                    <div class="contact__info" data-reveal>
+                        <p class="contact__text">Ready to start your project? Reach out and let's discuss how we can bring your idea to life.</p>
+                        <a href="https://wa.me/27827183651" class="contact__method" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+                            <span class="contact__icon" aria-hidden="true">💬</span>
+                            <div><p class="contact__label">WhatsApp</p><p class="contact__value">082 718 3651</p></div>
+                        </a>
+                        <a href="mailto:hello@[yourdomain].co.za" class="contact__method" aria-label="Send email">
+                            <span class="contact__icon" aria-hidden="true">✉️</span>
+                            <div><p class="contact__label">Email</p><p class="contact__value">hello@[yourdomain].co.za</p></div>
+                        </a>
+                        <p class="contact__note">📍 Based in South Africa — available worldwide</p>
+                    </div>
+                    <div class="contact__cta-box" data-reveal>
+                        <h3 class="contact__cta-title">Start Your Project Today</h3>
+                        <p class="contact__cta-text">Every great project starts with a conversation. Tell us about your idea and we'll help you bring it to life.</p>
+                        <a href="https://wa.me/27827183651?text=Hi%20Jacy%2C%20I%27d%20like%20to%20discuss%20a%20project" class="btn btn--primary btn--full" target="_blank" rel="noopener noreferrer">💬 Chat on WhatsApp</a>
+                        <a href="mailto:hello@[yourdomain].co.za?subject=Project%20Enquiry" class="btn btn--secondary btn--full">✉️ Send an Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <p class="footer__name">[Company Name]</p>
+                    <p class="footer__tagline">App and web developer based in South Africa.</p>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#why-us">Why Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Services</h4>
+                    <ul>
+                        <li><a href="#services">Mobile Apps</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Custom Software</a></li>
+                        <li><a href="#services">Web Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h4 class="footer__heading">Contact</h4>
+                    <ul>
+                        <li><a href="https://wa.me/27827183651" target="_blank" rel="noopener noreferrer">WhatsApp: 082 718 3651</a></li>
+                        <li><a href="mailto:hello@[yourdomain].co.za">hello@[yourdomain].co.za</a></li>
+                        <li>📍 South Africa</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copy">&copy; <span id="year"></span> [Company Name]. All rights reserved.</p>
+                <nav class="footer__legal" aria-label="Legal"><a href="privacy.html">Privacy Policy</a></nav>
+            </div>
+        </div>
+    </footer>
+
+    <!-- THREE.JS IMPORT MAP -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+        }
+    }
+    </script>
+
+    <!-- SCRIPTS -->
+    <script src="js/main.js"></script>
+    <script type="module" src="js/three-background.js"></script>
+</body>
+</html>
