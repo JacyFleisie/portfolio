@@ -1,10 +1,10 @@
-# Grootbek Biltong
+# Portfolio Website
 
-Premium biltong products website. Built with HTML, CSS, JavaScript, and Three.js.
+Professional app and web developer portfolio. Built with HTML, CSS, JavaScript, and Three.js.
 
 ## Live Demo
 
-[View Live Site](https://jacyfleisie.github.io/grootbek/)
+[View Live Site](https://jacyfleisie.github.io/portfolio/)
 
 ## Run Locally
 
